@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill - Masuk</title>
+    <link rel="icon" type="image/x-icon" href="../Images/CHILL.png">
+
+    <link rel="stylesheet" href="../Style/authentication.css">
+</head>
+<body class="register-bg">
+    <main>
+
+        <!-- Chill Logo -->
+        <div class="top-container">
+            <img class="logo" src="../Images/movie-open.png" alt="Movie Open">
+            <img class="logo-text" src="../Images/CHILL.png" alt="Chill App Logo">
+        </div>
+        
+        <!-- Welcome Message -->
+         <div class="welcome-message">
+             <h1>Masuk</h1>
+             <p1>Selamat datang kembali!</p1>
+         </div>
+
+    <!-- Form -->
+    <form action="" method="post">
+        <!-- Username Container-->
+        <div class="form">
+            <label for="username">Username</label>
+            <input  type="text" id="username" name="username" placeholder="Masukkan username" required>
+            <!-- for harus sama dengan id -->
+        </div>
+        
+         <!-- Password -->
+         <div class="form">
+             <label for="password"> kata sandi</label>
+             <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required>
+             <img src="../Images/hidden-pw.png" alt="Show Password">
+         </div>
+
+        <!-- Password -->
+         <div class="form">
+             <label for="password-confimation">Konfirmasi kata sandi</label>
+             <input type="password" id="password-confirmation" name="password" placeholder="Masukkan kata sandi" required>
+             <img src="../Images/hidden-pw.png" alt="Show Password">
+         </div>
+
+         <!-- Login Action -->
+        <div class="relog-action">
+            <p>Sudah punya akun? <a href="./login.html">Masuk</a></p>
+        </div>
+
+        <!-- Register Button -->
+        <div class="login-button">
+            <a class="login" href="./main.html" type="submit">Daftar</a>
+            <p>Atau</p>
+            <button class="google-login">
+                <img src="../Images/google-logo.png" alt="Google Logo">Daftar dengan Google
+            </button>
+        </div>
+    </form>
+    </main>
+</body>
+</html>

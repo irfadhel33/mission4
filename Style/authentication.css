@@ -1,0 +1,192 @@
+@import url("./global.css");
+
+body {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+}
+
+.login-bg{
+    background-image: url("../Images/bg-auth.jpg");
+}
+
+.register-bg{
+    background-image: url("../Images/register-bg.jpg");
+}
+
+main {
+    background-color: rgba(24, 26, 28, 0.84);
+    width: 100%;
+    /* heightnya mengikuti isi formnya */
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 29px;    
+}
+
+.logo-text {
+    width: 63px;
+    height: 24px;
+}
+
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.welcome-message p {
+    font-size: 10px;
+}
+
+.form{ 
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+
+.form label {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.form input {
+    background-color: transparent;
+    border-radius: 12px;
+    border: 0.5px solid rgba(231, 227, 252, 0.23);
+    padding: 8px 12px;
+
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.12px;
+    font-size: 10px;
+    color: rgba(193, 194, 196, 1);
+}
+
+.form img {
+    height: 12px;
+    width: 14px;
+    position: absolute;
+    top: 29px;
+    right: 12px;
+}
+
+.relog-action {
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    margin: 7px 0px 20px 0px;
+}
+
+.relog-action p {
+    color: rgba(193, 194, 196, 1);
+    font-weight: 400;
+}
+
+.relog-action a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    border: 0.58px solid rgba(231, 227, 252, 0.23);
+    border-radius: 14px;
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: white;
+    background-color: rgba(61, 65, 66, 1);
+    text-decoration: none;
+}
+
+.login:hover,
+.google-login:hover {
+    background-color: rgb(80, 93, 95);
+    cursor: pointer;
+}
+
+ 
+
+.login-button p {
+    display: flex;
+    justify-content: center;
+    margin: 4px 0px;
+
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: rgba(157, 158, 161, 1);
+}
+
+.google-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.58px solid rgba(231, 227, 252, 0.23);;
+    border-radius: 14px;
+    padding: 8px 12px 8px 12px;
+    gap: 8px;
+
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: white;
+    background-color: transparent;
+}
+
+.google-login img {
+    width: 10px;
+}
+
+@media screen and (min-width: 320px) {
+    main {
+        width: 90%;
+        max-width: 306px;
+    }
+}

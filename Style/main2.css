@@ -1,0 +1,228 @@
+@import url(main.css);
+
+@media screen and (min-width: 1024px) {
+  nav {
+    padding: 25px 80px;
+  }
+
+  .movie-logo {
+    width: 25px;
+    height: 20px;
+  }
+
+  .chill {
+    display: inline;
+    inline-size: 50px;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  .nav {
+    gap: 80px;
+  }
+
+  .logo {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile i {
+    width: 28px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropdown {
+    width: 220px;
+  }
+
+  .dropdown a {
+    font-size: 16px;
+    padding: 14px 18px;
+  }
+
+  .content-firstsection {
+    height: 587px;
+
+    padding: 80px;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+  }
+
+  .paragraph {
+    width: 668px;
+    font-size: 18px;
+
+    overflow: visible;
+    display: block;
+  }
+
+  
+
+  .h3 {
+    /* padding: 0px 0px 0px 60px; */
+  }
+
+  .second-section,
+  .third-section,
+  .fourth-section,
+  .fifth-section {
+    padding: 40px 80px;
+  }
+
+  .resume-films {
+    overflow: unset;
+  }
+
+  .resume-film {
+    width: 100%;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    background-color: rgba(47, 51, 52, 1);
+    display: block;
+    position: absolute;
+    bottom: 45px;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid rgba(231, 227, 252, 0.23);
+    color: white;
+    font-size: 24px;
+    padding: 5px 0px 10px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-arrow {
+    left: -40px;
+  }
+
+  .right-arrow {
+    right: -40px;
+  }
+
+  .second-left-arrow,
+  .second-right-arrow {
+    background-color: rgba(47, 51, 52, 1);
+    display: block;
+    position: absolute;
+    bottom: 180px;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid rgba(231, 227, 252, 0.23);
+    color: white;
+    font-size: 24px;
+    padding: 5px 0px 10px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second-left-arrow {
+    left: -30px;
+  }
+
+  .second-right-arrow {
+    right: -30px;
+  }
+
+  .films {
+    overflow: unset;
+  }
+
+  .film {
+    width: 234px;
+    height: 365px;
+  }
+
+  .h3 {
+    font-size: 32px;
+  }
+
+  .new-eps {
+    font-size: 14px;
+    padding: 4px 10px;
+    top: 16px;
+    left: 16px;
+  }
+
+  .top-ten {
+    font-size: 14px;
+    padding: 4px;
+
+    right: 12px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 80px;
+  }
+
+  .logo-copy-container {
+    justify-content: center;
+  }
+
+  .genre-help-container {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+  }
+
+  .genre-help {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .genre,
+  .help {
+    font-size: 16px;
+    color: rgba(193, 194, 196, 1);
+  }
+
+  .genre {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .first-genre {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .help {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .arrow-button {
+    display: none;
+  }
+}
